@@ -1,55 +1,54 @@
-#Database Events
+# Database Events
 
-##ConnectionEvent
+## ConnectionEvent
 
-###Available Properties
+### Available Properties
 
     connection (\Illuminate\Database\Connection)
     connectionName (string)
 
+## MigrationEnded
 
-##MigrationEnded
-
-###Available Properties
+### Available Properties
 
     method (string) (inherited)
     migration (\Illuminate\Database\Migrations\Migration) (inherited)
 
-##MigrationEvent
+## MigrationEvent
 
-###Available Properties
+### Available Properties
 
     method (string)
     migration (\Illuminate\Database\Migrations\Migration)
 
-##MigrationStarted
+## MigrationStarted
 
-###Available Properties
+### Available Properties
 
     method (string) (inherited)
     migration (\Illuminate\Database\Migrations\Migration) (inherited)
 
-##MigrationsEnded
+## MigrationsEnded
 
-###Available Properties
-
-    none
-
-##MigrationsStarted
-
-###Available Properties
+### Available Properties
 
     none
 
-##NoPendingMigrations
+## MigrationsStarted
 
-###Available Properties
+### Available Properties
+
+    none
+
+## NoPendingMigrations
+
+### Available Properties
 
     method (string)
 
-##QueryExecuted
+## QueryExecuted
 
-###Available Properties
+### Available Properties
 
     sql (string)
     time (float|null)
@@ -57,30 +56,30 @@
     connection (\Illuminate\Database\Connection)
     connectionName (string) (pulled from the connection)
 
-##StatementPrepared
+## StatementPrepared
 
-###Available Properties
+### Available Properties
 
     statement (\PDOStatement)
     connection (\Illuminate\Database\Connection)
 
-##TransactionBeginning
+## TransactionBeginning
 
-###Available Properties
-
-    connection (\Illuminate\Database\Connection) (inherited)
-    connectionName (string) (inherited and pulled from the connection)
-
-##TransactionCommitted
-
-###Available Properties
+### Available Properties
 
     connection (\Illuminate\Database\Connection) (inherited)
     connectionName (string) (inherited and pulled from the connection)
 
-##TransactionRolledBack
+## TransactionCommitted
 
-###Available Properties
+### Available Properties
+
+    connection (\Illuminate\Database\Connection) (inherited)
+    connectionName (string) (inherited and pulled from the connection)
+
+## TransactionRolledBack
+
+### Available Properties
 
     connection (\Illuminate\Database\Connection) (inherited)
     connectionName (string) (inherited and pulled from the connection)

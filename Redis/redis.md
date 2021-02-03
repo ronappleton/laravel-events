@@ -1,8 +1,8 @@
-#Redis Events
+# Redis Events
 
-##CommandExecuted
+## CommandExecuted
 
-##Available Properties
+## Available Properties
 
     time (float)
     command (string)

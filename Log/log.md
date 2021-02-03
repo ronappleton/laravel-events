@@ -1,8 +1,8 @@
-##Log Events
+## Log Events
 
-##MessageLogged
+## MessageLogged
 
-###Available Properties
+### Available Properties
 
     level (string)
     message (string)

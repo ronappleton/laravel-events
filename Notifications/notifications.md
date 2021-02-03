@@ -1,39 +1,39 @@
-#Notification Events
+# Notification Events
 
-##BroadcastNotificationCreated
+## BroadcastNotificationCreated
 
-###Available Properties
+### Available Properties
 
     data (array)
     notifiable (mixed)
     notification (\Illuminate\Notifications\Notification)
 
-###Available Methods
+### Available Methods
 
     broadcastOn() (Get the channels the event should broadcast on)
     broadcastWith() (Get the data that should be sent with the broadcasted event)
     broadcastType() (Get the type of the notification being broadcast)
 
-##NotificationFailed
+## NotificationFailed
 
-###Available Properties
+### Available Properties
 
     data (array)
     channel (string)
     notifiable (mixed)
     notification (\Illuminate\Notifications\Notification)
 
-##NotificationSending
+## NotificationSending
 
-###Available Properties
+### Available Properties
 
     channel (string)
     notifiable (mixed)
     notification (\Illuminate\Notifications\Notification)
 
-##NotificationSent
+## NotificationSent
 
-###Available Properties
+### Available Properties
 
     channel (string)
     response (mixed)
