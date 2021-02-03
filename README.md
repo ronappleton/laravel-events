@@ -5,6 +5,6 @@ This is simply a curated list of Laravel Events by version with available proper
 Introduced this version:
 
  - Database
-  - DatabaseRefreshed
-  - SchemaDumped
-  - SchemaLoaded
+   - DatabaseRefreshed
+   - SchemaDumped
+   - SchemaLoaded
