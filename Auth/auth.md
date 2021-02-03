@@ -1,4 +1,5 @@
-# Auth Events
+# Auth Events 
+[Official Repo](https://github.com/laravel/framework/tree/6.x/src/Illuminate/Auth/Events)
 
 ## Attempting
 
