@@ -30,14 +30,6 @@
     job (\Illuminat\Contracts\Queue\Job)
     connectionName (string)
 
-## JobQueued
-
-### Available Properties
-
-    connectionName (string)
-    id (string|int|null)
-    job (\Closure|string|object)
-
 ## Looping
 
 ### Available Properties

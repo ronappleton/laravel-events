@@ -7,12 +7,6 @@
     connection (\Illuminate\Database\Connection)
     connectionName (string)
 
-## DatabaseRefreshed
-
-### Available Properties
-
-    none
-
 ## MigrationEnded
 
 ### Available Properties
@@ -24,14 +18,15 @@
 
 ### Available Properties
 
-    method (string) (inherited)
-    migration (\Illuminate\Database\Migrations\Migration) (inherited)
+    method (string)
+    migration (\Illuminate\Database\Migrations\Migration)
 
 ## MigrationStarted
 
 ### Available Properties
 
-    none
+    method (string)
+    migration (\Illuminate\Database\Migrations\Migration)
 
 ## MigrationsEnded
 
@@ -43,8 +38,7 @@
 
 ### Available Properties
 
-    method (string) (inherited)
-    migration (\Illuminate\Database\Migrations\Migration) (inherited)
+    none
 
 ## NoPendingMigrations
 
@@ -61,22 +55,6 @@
     bindings (array)
     connection (\Illuminate\Database\Connection)
     connectionName (string) (pulled from the connection)
-
-## SchemaDumped
-
-### Available Properties
-
-    connection (\Illuminate\Database\Connection)
-    connectionName (string) (pulled from the connection)
-    path (string)
-
-## SchemaLoaded
-
-### Available Properties
-
-    connection (\Illuminate\Database\Connection)
-    connectionName (string) (pulled from the connection)
-    path (string)
 
 ## StatementPrepared
 
