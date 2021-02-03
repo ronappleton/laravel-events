@@ -24,14 +24,15 @@
 
 ### Available Properties
 
-    method (string) (inherited)
-    migration (\Illuminate\Database\Migrations\Migration) (inherited)
+    method (string)
+    migration (\Illuminate\Database\Migrations\Migration)
 
 ## MigrationStarted
 
 ### Available Properties
 
-    none
+    method (string)
+    migration (\Illuminate\Database\Migrations\Migration)
 
 ## MigrationsEnded
 
@@ -43,8 +44,7 @@
 
 ### Available Properties
 
-    method (string) (inherited)
-    migration (\Illuminate\Database\Migrations\Migration) (inherited)
+    none
 
 ## NoPendingMigrations
 
