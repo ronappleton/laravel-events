@@ -1,59 +1,59 @@
-#Cache Events
+# Cache Events
 
-##CacheEvent
+## CacheEvent
 
     key (string)
     tags (array)
 
-###Available Methods
+### Available Methods
 
     setTags($tags) (array)
 
-###Available Properties
+### Available Properties
 
-##CacheHit
+## CacheHit
 
-###Available Properties
+### Available Properties
 
     key (string) (inherited)
     tags (array) (inherited)
     value (mixed)
 
-###Methods Available
+### Methods Available
 
     setTags($tags) (array) (inherited)
 
-##CacheMissed
+## CacheMissed
 
-###Available Properties
+### Available Properties
 
     key (string) (inherited)
     tags (array) (inherited)
 
-###Methods Available
+### Methods Available
 
     setTags($tags) (array) (inherited)
 
-##KeyForgotten
+## KeyForgotten
 
-###Available Properties
+### Available Properties
 
     key (string) (inherited)
     tags (array) (inherited)
 
-###Methods Available
+### Methods Available
 
     setTags($tags) (array) (inherited)
 
-##KeyWritten
+## KeyWritten
 
-###Available Properties
+### Available Properties
 
     key (string) (inherited)
     tags (array) (inherited)
     value (mixed)
     seconds (int|null)
 
-###Methods Available
+### Methods Available
 
     setTags($tags) (array) (inherited)

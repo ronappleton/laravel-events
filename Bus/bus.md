@@ -1,7 +1,7 @@
-#Bus Events
+# Bus Events
 
-##BatchDispatched
+## BatchDispatched
 
-###Available Properties
+### Available Properties
 
     batch (\Illuminate\Bus\Batch)

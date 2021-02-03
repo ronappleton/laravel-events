@@ -1,84 +1,84 @@
 # Auth Events
 
-##Attempting
+## Attempting
 
-###Available Properties
+### Available Properties
 
     guard (string)
     remember (bool)
     credentials (array)
 
-##Authenticated
+## Authenticated
 
-###Available Properties
-
-    user (\Illuminate\Contracts\Auth\Authenticatable)
-    guard (string)
-
-##CurrentDeviceLogout
-
-###Available Properties
+### Available Properties
 
     user (\Illuminate\Contracts\Auth\Authenticatable)
     guard (string)
 
-##Failed
+## CurrentDeviceLogout
 
-###Available Properties
+### Available Properties
+
+    user (\Illuminate\Contracts\Auth\Authenticatable)
+    guard (string)
+
+## Failed
+
+### Available Properties
 
     user (\Illuminate\Contracts\Auth\Authenticatable)
     guard (string)
     credentials (array)
 
-##Lockout
+## Lockout
 
-###Available Properties
+### Available Properties
 
     request (\Illuminate\Http\Request)
 
-##Login
+## Login
 
-###Available Properties
+### Available Properties
 
     user (\Illuminate\Contracts\Auth\Authenticatable)
     guard (string)
     remember (bool)
 
-##Logout
+## Logout
 
-###Available Properties
-
-    user (\Illuminate\Contracts\Auth\Authenticatable)
-    guard (string)
-
-##OtherDeviceLogout
-
-###Available Properties
+### Available Properties
 
     user (\Illuminate\Contracts\Auth\Authenticatable)
     guard (string)
 
-##PasswordReset
+## OtherDeviceLogout
 
-###Available Properties
-
-    user (\Illuminate\Contracts\Auth\Authenticatable)
-
-##Registered
-
-###Available Properties
-
-    user (\Illuminate\Contracts\Auth\Authenticatable)
-
-##Validated
-
-###Available Properties
+### Available Properties
 
     user (\Illuminate\Contracts\Auth\Authenticatable)
     guard (string)
 
-##Verified
+## PasswordReset
 
-###Available Properties
+### Available Properties
+
+    user (\Illuminate\Contracts\Auth\Authenticatable)
+
+## Registered
+
+### Available Properties
+
+    user (\Illuminate\Contracts\Auth\Authenticatable)
+
+## Validated
+
+### Available Properties
+
+    user (\Illuminate\Contracts\Auth\Authenticatable)
+    guard (string)
+
+## Verified
+
+### Available Properties
 
     user (\Illuminate\Contracts\Auth\MustVerifyEmail)

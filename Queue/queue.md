@@ -1,52 +1,52 @@
-#Queue Events
+# Queue Events
 
-##JobExceptionOccurred
+## JobExceptionOccurred
 
-###Available Properties
-
-    job (\Illuminat\Contracts\Queue\Job)
-    exception (\Throwable)
-    connectionName (string)
-
-##JobFailed
-
-###Available Properties
+### Available Properties
 
     job (\Illuminat\Contracts\Queue\Job)
     exception (\Throwable)
     connectionName (string)
 
-##JobProcessed
+## JobFailed
 
-###Available Properties
+### Available Properties
+
+    job (\Illuminat\Contracts\Queue\Job)
+    exception (\Throwable)
+    connectionName (string)
+
+## JobProcessed
+
+### Available Properties
 
     job (\Illuminat\Contracts\Queue\Job)
     connectionName (string)
 
-##JobProcessing
+## JobProcessing
 
-###Available Properties
+### Available Properties
 
     job (\Illuminat\Contracts\Queue\Job)
     connectionName (string)
 
-##JobQueued
+## JobQueued
 
-###Available Properties
+### Available Properties
 
     connectionName (string)
     id (string|int|null)
     job (\Closure|string|object)
 
-##Looping
+## Looping
 
-###Available Properties
+### Available Properties
 
     queue (string)
     connectionName (string)
 
-##WorkerStopping
+## WorkerStopping
 
-###Available Properties
+### Available Properties
 
     status (int)

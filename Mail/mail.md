@@ -1,15 +1,15 @@
-#Mail Events
+# Mail Events
 
-##MessageSending
+## MessageSending
 
-###Available Properties
+### Available Properties
 
     data (array)
     message (\Swift_Message)
 
-##MessageSent
+## MessageSent
 
-###Available Properties
+### Available Properties
 
     data (array)
     message (\Swift_Message)
